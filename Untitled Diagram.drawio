@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T14:47:23.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="mfRXyqvTdQE1rrL40Cy7" version="17.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-26T05:05:49.787Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="TPrfIC7ExjZzBhJy91y6" version="17.4.3" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="interface and class">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -284,8 +284,122 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IeAphZcelt51eE8N3MT4-38" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="110" width="100" height="300" as="geometry" />
+        <mxCell id="IeAphZcelt51eE8N3MT4-38" value="elastic_server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="110" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IeAphZcelt51eE8N3MT4-38">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-2" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;UpdateUsage&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;strokeColor=#000000;" edge="1" target="TKCrwURl2bFZxLG3Hxle-1" parent="IeAphZcelt51eE8N3MT4-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-3" value="pod_storage" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="110" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TKCrwURl2bFZxLG3Hxle-3">
+          <mxGeometry x="45" y="120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-5" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;UpdatePodUsage&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;strokeColor=#000000;" edge="1" parent="1" target="TKCrwURl2bFZxLG3Hxle-4" source="TKCrwURl2bFZxLG3Hxle-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-6" value="pod_box" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="110" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TKCrwURl2bFZxLG3Hxle-6">
+          <mxGeometry x="45" y="150" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-8" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;UpdateUsage&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;strokeColor=#000000;" edge="1" parent="TKCrwURl2bFZxLG3Hxle-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-65" y="150" as="sourcePoint" />
+            <mxPoint x="45" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-11" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;NotifyPodUsageUpdate&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;strokeColor=#000000;" edge="1" parent="TKCrwURl2bFZxLG3Hxle-6" target="TKCrwURl2bFZxLG3Hxle-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="180" as="sourcePoint" />
+            <mxPoint x="165" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-9" value="elastic_agent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="445" y="110" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TKCrwURl2bFZxLG3Hxle-9">
+          <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;" vertex="1" parent="TKCrwURl2bFZxLG3Hxle-9">
+          <mxGeometry x="45" y="270" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-16" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px ; line-height: 18px&quot;&gt;MainLoop&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;" edge="1" target="TKCrwURl2bFZxLG3Hxle-15" parent="TKCrwURl2bFZxLG3Hxle-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="250" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-21" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;UpdatePodUsages&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;strokeColor=#000000;" edge="1" parent="TKCrwURl2bFZxLG3Hxle-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="310" as="sourcePoint" />
+            <mxPoint x="184.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-17" value="policy_manager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="585" y="110" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TKCrwURl2bFZxLG3Hxle-17">
+          <mxGeometry x="45" y="310" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-22" value="cpu_usage_compress_policy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="110" width="160" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TKCrwURl2bFZxLG3Hxle-22">
+          <mxGeometry x="75" y="330" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-24" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;UpdatePodUsages&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;strokeColor=#000000;exitX=1.3;exitY=0.146;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="TKCrwURl2bFZxLG3Hxle-22" source="TKCrwURl2bFZxLG3Hxle-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="329" as="sourcePoint" />
+            <mxPoint x="74.5" y="329" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-25" value="memory_lru_oom_policy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="110" width="160" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TKCrwURl2bFZxLG3Hxle-25">
+          <mxGeometry x="75" y="437" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-27" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;UpdatePodUsages&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;strokeColor=#000000;exitX=1;exitY=0.904;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="TKCrwURl2bFZxLG3Hxle-25" source="TKCrwURl2bFZxLG3Hxle-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="436" as="sourcePoint" />
+            <mxPoint x="74.5" y="436" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-28" value="pod_usage_info_list" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="110" width="160" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TKCrwURl2bFZxLG3Hxle-28">
+          <mxGeometry x="75" y="351" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-30" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;podUsageInfoList&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;remove,add&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;strokeColor=#000000;" edge="1" parent="TKCrwURl2bFZxLG3Hxle-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="351" as="sourcePoint" />
+            <mxPoint x="75" y="351" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-31" value="pod_lru_list" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="110" width="160" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TKCrwURl2bFZxLG3Hxle-31">
+          <mxGeometry x="75" y="490" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TKCrwURl2bFZxLG3Hxle-33" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;podUsageInfoList&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;remove&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;strokeColor=#000000;" edge="1" parent="TKCrwURl2bFZxLG3Hxle-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="490" as="sourcePoint" />
+            <mxPoint x="75" y="490" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T03:25:39.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="2t_6qGp7xdWvZh6QMV4g" version="18.2.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-06-28T09:07:54.308Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="smUVecgJ3qIldUp8JPrH" version="18.2.0" type="github" pages="6">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="interface and class">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -541,7 +541,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zIKxzjXX6w3NhdV_EgPD-14" value="vd_agent" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="369" y="460" width="84" height="40" as="geometry" />
+          <mxGeometry x="369" y="450" width="84" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zIKxzjXX6w3NhdV_EgPD-16" value="报告app状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="417" y="420" width="73" height="30" as="geometry" />
@@ -556,10 +556,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zIKxzjXX6w3NhdV_EgPD-20" value="policy" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="369" y="150" width="84" height="40" as="geometry" />
+          <mxGeometry x="369" y="155" width="84" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c3jKYLpQH8TnBOxuLHg3-3" value="runtime" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="369" y="70" width="84" height="40" as="geometry" />
+          <mxGeometry x="369" y="80" width="84" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c3jKYLpQH8TnBOxuLHg3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="c3jKYLpQH8TnBOxuLHg3-5" target="zIKxzjXX6w3NhdV_EgPD-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -577,28 +577,19 @@
           <mxGeometry x="235.5" y="270" width="73" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c3jKYLpQH8TnBOxuLHg3-11" value="根据pod的状态变化进行处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="460" y="235" width="73" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="c3jKYLpQH8TnBOxuLHg3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c3jKYLpQH8TnBOxuLHg3-12" target="zIKxzjXX6w3NhdV_EgPD-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="c3jKYLpQH8TnBOxuLHg3-12" value="elactl" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="370" width="84" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="c3jKYLpQH8TnBOxuLHg3-15" value="获取pod信息与状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="505.5" y="340" width="73" height="30" as="geometry" />
+          <mxGeometry x="460" y="235" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c3jKYLpQH8TnBOxuLHg3-16" value="监听8888port口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="280" y="375" width="73" height="30" as="geometry" />
+          <mxGeometry x="460" y="375" width="73" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c3jKYLpQH8TnBOxuLHg3-17" value="存储pod的信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="453" y="305" width="73" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="c3jKYLpQH8TnBOxuLHg3-18" value="分为cpu和mem的policy，监听node mem以及计算各个pod使用的cpu资源" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="460" y="155" width="120" height="30" as="geometry" />
+        <mxCell id="c3jKYLpQH8TnBOxuLHg3-18" value="分为cpu和mem的policy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="453" y="160" width="77" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c3jKYLpQH8TnBOxuLHg3-19" value="修改container以及pod cpu share的接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="453" y="75" width="73" height="30" as="geometry" />
+          <mxGeometry x="453" y="80" width="73" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

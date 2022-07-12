@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T02:03:47.867Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ztl1keQFUpdwodCgTQoy" version="20.0.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-07-12T03:04:09.897Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="gab0Mz50BBzzoz9OUuP4" version="20.0.3" type="github" pages="10">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="interface and class">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1247,8 +1247,19 @@
         <mxCell id="4fNB9Mko-JJx1W7SOeVN-61" value="gpu driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="364.5" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4fNB9Mko-JJx1W7SOeVN-64" value="module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="295" y="480" width="50" height="32" as="geometry" />
+        <mxCell id="4fNB9Mko-JJx1W7SOeVN-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;" edge="1" parent="1" source="4fNB9Mko-JJx1W7SOeVN-64" target="4fNB9Mko-JJx1W7SOeVN-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="520" />
+              <mxPoint x="338" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4fNB9Mko-JJx1W7SOeVN-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;" edge="1" parent="1" source="4fNB9Mko-JJx1W7SOeVN-64" target="4fNB9Mko-JJx1W7SOeVN-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4fNB9Mko-JJx1W7SOeVN-64" value="x11spice" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="295" y="469" width="50" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

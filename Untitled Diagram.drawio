@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T01:50:08.755Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="GToSqNThFUqGbI_E_SNL" version="20.0.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-07-12T02:03:47.867Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ztl1keQFUpdwodCgTQoy" version="20.0.3" type="github" pages="10">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="interface and class">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1246,6 +1246,9 @@
         </mxCell>
         <mxCell id="4fNB9Mko-JJx1W7SOeVN-61" value="gpu driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="364.5" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4fNB9Mko-JJx1W7SOeVN-64" value="module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="295" y="480" width="50" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

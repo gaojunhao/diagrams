@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T08:55:17.776Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="bcPgcwK84tpyRdW36bpm" version="20.2.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-08-22T09:00:06.542Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ji054uGCUV6208MmCZHG" version="20.2.4" type="github" pages="11">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="interface and class">
     <mxGraphModel dx="1602" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -527,7 +527,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ox4MPog3y5T_Hf2xRG7u" name="总体设计">
-    <mxGraphModel dx="979" dy="965" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="879" dy="662" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -592,34 +592,28 @@
           <mxGeometry x="453" y="80" width="73" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ftUjDPiCgTbk3USYyFWD-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="158.5" y="670" width="590" height="260" as="geometry" />
+          <mxGeometry x="184" y="670" width="449" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="ftUjDPiCgTbk3USYyFWD-2" value="节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="680" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ftUjDPiCgTbk3USYyFWD-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="710" width="490" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="ftUjDPiCgTbk3USYyFWD-4" value="Deamonset POD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="720" width="60" height="30" as="geometry" />
+        <mxCell id="ftUjDPiCgTbk3USYyFWD-2" value="服务器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="184" y="670" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ftUjDPiCgTbk3USYyFWD-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="235.5" y="760" width="434.5" height="130" as="geometry" />
+          <mxGeometry x="235.5" y="720" width="353.5" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="ftUjDPiCgTbk3USYyFWD-6" value="Docker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="242" y="770" width="60" height="30" as="geometry" />
+        <mxCell id="ftUjDPiCgTbk3USYyFWD-6" value="&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:345844008},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;节点内资源动态分配服务&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;p style=&quot;text-align: left; margin-left: 0px;&quot;&gt;节点内资源动态分配服务&lt;/p&gt;&lt;/article&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="296.5" y="720" width="229" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ftUjDPiCgTbk3USYyFWD-7" value="&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:345844008},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;节点内POD资源的监听服务&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;p style=&quot;margin-left: 0px;&quot;&gt;节点内POD资源的监听服务&lt;/p&gt;&lt;/article&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="260" y="820" width="100" height="60" as="geometry" />
+        <mxCell id="ftUjDPiCgTbk3USYyFWD-7" value="&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:345844008},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;节点内POD资源的监听服务&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;p style=&quot;margin-left: 0px;&quot;&gt;节点内应用资源的监听服务&lt;/p&gt;&lt;/article&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="285" y="756" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ftUjDPiCgTbk3USYyFWD-8" value="&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:345844008},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;节点内POD资源的监听服务&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:345844008},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;接收POD状态更新服务&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;p style=&quot;margin-left: 0px;&quot;&gt;接收POD状态更新服务&lt;/p&gt;&lt;/article&gt;&lt;/article&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="402.75" y="820" width="100" height="60" as="geometry" />
+        <mxCell id="ftUjDPiCgTbk3USYyFWD-8" value="&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:345844008},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;节点内POD资源的监听服务&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:345844008},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;接收POD状态更新服务&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;p style=&quot;margin-left: 0px;&quot;&gt;接收应用状态更新服务&lt;/p&gt;&lt;/article&gt;&lt;/article&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="285" y="822" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ftUjDPiCgTbk3USYyFWD-9" value="&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:345844008},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;节点内POD资源的监听服务&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:345844008},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;接收POD状态更新服务&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:345844008},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;实时修改资源分配服务以及资源动态分配策略&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;p style=&quot;margin-left: 0px;&quot;&gt;实时修改资源分配服务&lt;/p&gt;&lt;/article&gt;&lt;/article&gt;&lt;/article&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="550" y="820" width="100" height="60" as="geometry" />
+          <mxGeometry x="433" y="822" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ftUjDPiCgTbk3USYyFWD-10" value="&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:345844008},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;节点内POD资源的监听服务&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:345844008},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;接收POD状态更新服务&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:345844008},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;资源动态分配策略&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;p style=&quot;text-align: left; margin-left: 0px;&quot;&gt;资源动态分配策略&lt;/p&gt;&lt;/article&gt;&lt;/article&gt;&lt;/article&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="370" y="770" width="170" height="40" as="geometry" />
+        <mxCell id="CXe8WLKguzVXz0EqZxAH-1" value="&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:345844008},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;节点内POD资源的监听服务&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:345844008},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;接收POD状态更新服务&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;article data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:345844008},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;实时修改资源分配服务以及资源动态分配策略&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;p style=&quot;margin-left: 0px;&quot;&gt;资源动态分配策略&lt;/p&gt;&lt;/article&gt;&lt;/article&gt;&lt;/article&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="433" y="754" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -787,7 +781,7 @@
             <mxPoint x="120" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zdtW_-SUnJyca8CCYlBZ-5" value="接收POD状态更新服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="zdtW_-SUnJyca8CCYlBZ-5" value="接收应用状态更新服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="170" y="110" width="140" height="280" as="geometry" />
         </mxCell>
         <mxCell id="zdtW_-SUnJyca8CCYlBZ-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="zdtW_-SUnJyca8CCYlBZ-5" vertex="1">
@@ -817,7 +811,7 @@
             <mxPoint x="372.5" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UKbuyMygICDcwXI5GKUZ-13" value="节点内POD资源监听服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="UKbuyMygICDcwXI5GKUZ-13" value="节点内应用资源监听服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="420" width="140" height="280" as="geometry" />
         </mxCell>
         <mxCell id="UKbuyMygICDcwXI5GKUZ-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UKbuyMygICDcwXI5GKUZ-13">
@@ -829,7 +823,7 @@
             <mxPoint x="120" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UKbuyMygICDcwXI5GKUZ-16" value="接收POD状态更新服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="UKbuyMygICDcwXI5GKUZ-16" value="接收应用状态更新服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="420" width="140" height="280" as="geometry" />
         </mxCell>
         <mxCell id="UKbuyMygICDcwXI5GKUZ-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UKbuyMygICDcwXI5GKUZ-16">

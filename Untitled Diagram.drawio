@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T07:25:14.878Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="zCC8Cmhy2lrr9zhMJCA1" version="20.4.2" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-10-20T07:25:35.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="5QGgRbB6gRilrAgi_8EJ" version="20.4.2" type="github" pages="12">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="interface and class">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1460,7 +1460,7 @@
         <mxCell id="UNuEqmgqQ2YfjDzN6bAV-13" value="ECS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="180" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UNuEqmgqQ2YfjDzN6bAV-14" value="/mnt/data/AOSP.raw" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UNuEqmgqQ2YfjDzN6bAV-14" value="/mnt/data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="380" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UNuEqmgqQ2YfjDzN6bAV-15" value="/mnt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">

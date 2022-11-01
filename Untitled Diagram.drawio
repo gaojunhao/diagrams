@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T12:11:29.368Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="IFcZQzeHBZUGUq68uGuA" version="20.4.2" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-11-01T09:12:57.460Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="8azbs2aNilVldLuUWp3E" version="20.4.2" type="github" pages="13">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="interface and class">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1567,25 +1567,22 @@
           <mxGeometry x="490" y="275" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PV-SHenDOb98_j6YvgVz-13" value="/home" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="310" width="70" height="30" as="geometry" />
+          <mxGeometry x="240" y="310" width="45" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PV-SHenDOb98_j6YvgVz-14" value="ECS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="180" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PV-SHenDOb98_j6YvgVz-15" value="/mnt/instance_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="380" width="140" height="30" as="geometry" />
+        <mxCell id="PV-SHenDOb98_j6YvgVz-15" value="/mnt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="416" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PV-SHenDOb98_j6YvgVz-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.935;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="PV-SHenDOb98_j6YvgVz-16" target="PV-SHenDOb98_j6YvgVz-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PV-SHenDOb98_j6YvgVz-16" value="/mnt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="310" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PV-SHenDOb98_j6YvgVz-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="PV-SHenDOb98_j6YvgVz-15" target="PV-SHenDOb98_j6YvgVz-16">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="510" as="sourcePoint" />
-            <mxPoint x="430" y="460" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="PV-SHenDOb98_j6YvgVz-18" value="/share/instance_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="385" width="140" height="30" as="geometry" />
+          <mxGeometry x="193" y="385" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PV-SHenDOb98_j6YvgVz-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="PV-SHenDOb98_j6YvgVz-18" target="PV-SHenDOb98_j6YvgVz-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1627,13 +1624,13 @@
           <mxGeometry x="90" y="460" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PV-SHenDOb98_j6YvgVz-28" value="/share" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="416" width="200" height="30" as="geometry" />
+          <mxGeometry x="193" y="415" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PV-SHenDOb98_j6YvgVz-29" value="1.mount nas /mnt/instance_id&lt;br&gt;2.copy /data/raw.img /mnt/instance_id/&lt;br&gt;3.mount /mnt/instance_id/raw.img /share/instance_id/guest&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="70" width="330" height="80" as="geometry" />
+        <mxCell id="PV-SHenDOb98_j6YvgVz-29" value="0.mount 源码数据nas盘 /data/&lt;br&gt;1.mount nas /mnt/instance_id&lt;br&gt;2.mount raw.img&lt;br&gt;&amp;nbsp; &amp;nbsp;2.1 create /mnt/instance_id/instance_id.raw&lt;br&gt;&amp;nbsp; &amp;nbsp;2.2 mount /mnt/instance_id/instance_id.raw&amp;nbsp;/share/instance_id/&lt;br&gt;3.copy /data/source.tar.gz /share/instance_id/guest&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="360" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="PV-SHenDOb98_j6YvgVz-30" value="1.管控下发挂载信息&lt;br&gt;2.管控下发拷贝信息&lt;br&gt;3.管控下发挂载信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="60" width="330" height="80" as="geometry" />
+        <mxCell id="PV-SHenDOb98_j6YvgVz-30" value="0.管控下发源码数据盘的挂载信息&lt;br&gt;1.管控下发nas挂载信息，&lt;br&gt;2.管控下发raw image挂载信息以及raw image的大小&lt;br&gt;3.管控下发拷贝信息，源码压缩包拷贝" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="60" width="480" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PV-SHenDOb98_j6YvgVz-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="PV-SHenDOb98_j6YvgVz-31" target="PV-SHenDOb98_j6YvgVz-32">
           <mxGeometry relative="1" as="geometry" />
@@ -1643,6 +1640,15 @@
         </mxCell>
         <mxCell id="PV-SHenDOb98_j6YvgVz-32" value="/data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="275" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PV-SHenDOb98_j6YvgVz-36" value="/mnt/instance_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="386" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PV-SHenDOb98_j6YvgVz-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="PV-SHenDOb98_j6YvgVz-38" target="PV-SHenDOb98_j6YvgVz-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PV-SHenDOb98_j6YvgVz-38" value="/mnt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="310" width="45" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
